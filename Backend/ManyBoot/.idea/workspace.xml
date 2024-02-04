@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe24ee1a-4ea7-411a-98bf-93f7be1cd2be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cs309/quoridorApp/dataPackets/PacketTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cs309/quoridorApp/PacketTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/QuoridorSpringApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/QuoridorSpringApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/WebSocketConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/controllers/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/controllers/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/GameChat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/GameChat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/GameHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/GameHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/GameInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/GameInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/GameRules.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/GameRules.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/BoardHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/BoardHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/Tile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/Tile$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/Tile$Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/Tile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/Tile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/Building.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/DoubleWall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/DoubleWall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/Goal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/Goal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/PlayerMarker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/PlayerMarker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/SingleWall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/SingleWall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/TileBound.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/game/board/tileBound/TileBound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/AddFriendPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/AddFriendPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/ByteBoardPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/ByteBoardPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/GamePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/GamePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/GameSettingsPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/GameSettingsPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/IPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/IPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/ResultPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/ResultPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/SessionCheckPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/SessionCheckPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/SessionConfirmationPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/SessionConfirmationPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/StartSessionPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/StartSessionPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/TestMovePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/TestMovePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/TestMovementPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/TestMovementPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/TestWallPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/packets/TestWallPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/BotPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/BotPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/History.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/PlayerList$PlayerListData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/PlayerList$PlayerListData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/PlayerList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/PlayerList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/PlayerSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/PlayerSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/PlayerSessions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/PlayerSessions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/PlayerStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/player/PlayerStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/repository/HistoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/repository/HistoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/repository/PlayerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/repository/PlayerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/repository/PlayerStatsRepository$PlayerStatsWinRateComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/repository/PlayerStatsRepository$PlayerStatsWinRateComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/repository/PlayerStatsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/repository/PlayerStatsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/repository/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/repository/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/repository/SessionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/repository/SessionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/swagger/SpringFoxConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cs309/quoridorApp/swagger/SpringFoxConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cs309/quoridorApp/PacketTests$StringContextConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cs309/quoridorApp/PacketTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cs309/quoridorApp/PacketTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cs309/quoridorAppTest/controllersTest/PacketTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Frontend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frontend/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MTk8051L1WLXX25m2CzsEAfyMt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/eller/School/ComS309/2_tz_4/Backend/ManyBoot/src/test/java/com/cs309/quoridorApp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eller/School/ComS309/2_tz_4/Backend/ManyBoot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;86b6b8f467ab82eed86da9c50c2d8b28&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cs309.quoridorApp.controllers" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.cs309.quoridorApp.swagger" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cs309.quoridorApp.dataPackets" />
+      <recent name="com.cs309.quoridorApp" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.com.cs309.quoridorApp.dataPackets in ManyBoot">
+    <configuration name="PacketTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ManyBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cs309.quoridorAppTest.controllersTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cs309.quoridorAppTest.controllersTest" />
+      <option name="MAIN_CLASS_NAME" value="com.cs309.quoridorAppTest.controllersTest.PacketTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PacketTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ManyBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cs309.quoridorApp.dataPackets" />
+      <option name="MAIN_CLASS_NAME" value="com.cs309.quoridorApp.dataPackets.PacketTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PacketTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ManyBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cs309.quoridorApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cs309.quoridorApp" />
+      <option name="MAIN_CLASS_NAME" value="com.cs309.quoridorApp.PacketTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.cs309.quoridorApp.dataPackets in ManyBoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ManyBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cs309.quoridorApp.dataPackets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cs309.quoridorApp.dataPackets" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuoridorSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ManyBoot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cs309.quoridorApp.QuoridorSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.cs309.quoridorApp.dataPackets in ManyBoot" />
+        <item itemvalue="JUnit.PacketTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe24ee1a-4ea7-411a-98bf-93f7be1cd2be" name="Changes" comment="" />
+      <created>1677798796172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677798796172</updated>
+      <workItem from="1677798797255" duration="11247000" />
+      <workItem from="1677862804670" duration="5086000" />
+      <workItem from="1679339968701" duration="948000" />
+      <workItem from="1679633483165" duration="611000" />
+      <workItem from="1679675734426" duration="2199000" />
+      <workItem from="1679679445017" duration="325000" />
+      <workItem from="1680117354922" duration="1465000" />
+      <workItem from="1680147130372" duration="3712000" />
+      <workItem from="1680242524912" duration="6830000" />
+      <workItem from="1680283864256" duration="975000" />
+      <workItem from="1680640227198" duration="3872000" />
+      <workItem from="1680736053320" duration="15156000" />
+      <workItem from="1680751547126" duration="142000" />
+      <workItem from="1680821925385" duration="23830000" />
+      <workItem from="1680874357960" duration="5947000" />
+      <workItem from="1680883448098" duration="3062000" />
+      <workItem from="1680914260636" duration="1975000" />
+      <workItem from="1681348470226" duration="1503000" />
+      <workItem from="1681491028675" duration="111000" />
+      <workItem from="1681759363393" duration="1670000" />
+      <workItem from="1682095480063" duration="507000" />
+      <workItem from="1682098425755" duration="1294000" />
+      <workItem from="1682292885262" duration="5663000" />
+      <workItem from="1682363599909" duration="3165000" />
+      <workItem from="1682434941054" duration="1352000" />
+      <workItem from="1682536334384" duration="10554000" />
+      <workItem from="1682645534013" duration="4459000" />
+      <workItem from="1682703153774" duration="6680000" />
+      <workItem from="1682735866042" duration="603000" />
+      <workItem from="1682911590944" duration="871000" />
+      <workItem from="1682951632440" duration="17757000" />
+      <workItem from="1683003194325" duration="6070000" />
+      <workItem from="1683078107708" duration="1461000" />
+      <workItem from="1684375373996" duration="601000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ManyBoot$PacketTests__1_.ic" NAME="PacketTests (1) Coverage Results" MODIFIED="1683065396149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.cs309.quoridorApp.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ManyBoot$com_cs309_quoridorApp_dataPackets_in_ManyBoot.ic" NAME="com.cs309.quoridorApp.dataPackets in ManyBoot Coverage Results" MODIFIED="1683078817420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.cs309.quoridorApp.dataPackets.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ManyBoot$PacketTests.ic" NAME="PacketTests Coverage Results" MODIFIED="1683079117899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>.*</FILTER>
+    </SUITE>
+  </component>
+</project>
