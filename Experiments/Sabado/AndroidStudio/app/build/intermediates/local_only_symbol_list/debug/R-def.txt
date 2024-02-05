@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonBack
+id buttonRules
+id buttonStart
+id textView
+id textView2
+id textView3
+id textView4
+id textView5
+id textViewTitle
+layout activity_final_rule
+layout activity_main
+layout activity_rule
+layout activity_rule2
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.AndroidStudioDemo1
+xml backup_rules
+xml data_extraction_rules
