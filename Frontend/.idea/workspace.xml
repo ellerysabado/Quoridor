@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="06b17df6-13f8-4884-8905-835d38ad3f53" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/src/test/java/com/cs309/quoridorApp/PacketTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/src/test/java/com/cs309/quoridorApp/PacketTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/QuoridorSpringApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/QuoridorSpringApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/WebSocketConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/BoardPlayerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/BoardPlayerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/ChatWebSocketControl$GetMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/ChatWebSocketControl$GetMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/ChatWebSocketControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/ChatWebSocketControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/ClientActionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/ClientActionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/HistoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/HistoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/PlayerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/PlayerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/PlayerStatsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/PlayerStatsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/SessionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/SessionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/WebSocketControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/controllers/WebSocketControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/ListedPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/ListedPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/Packet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/Packet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/SuperPacket$Packets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/SuperPacket$Packets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/SuperPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/SuperPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/TestPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/TestPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/ClientPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/ClientPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/HistoryPacket$gameHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/HistoryPacket$gameHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/HistoryPacket$previousGames.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/HistoryPacket$previousGames.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/HistoryPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/HistoryPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/InvalidGamePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/InvalidGamePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/InvalidSessionPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/InvalidSessionPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/ListPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/ListPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/NewSessionPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/NewSessionPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/NotInGamePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/NotInGamePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/PacketNotFoundPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/PacketNotFoundPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/PlayerStatsPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/PlayerStatsPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/RankPacket$RankPlayers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/RankPacket$RankPlayers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/RankPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/RankPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/ResultPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/ResultPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/ReturnTestPacket$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/ReturnTestPacket$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/ReturnTestPacket$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/ReturnTestPacket$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/ReturnTestPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/ReturnTestPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/chat/ReturnChatPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/chat/ReturnChatPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/game/ReturnBoardPacket$ClientMarkers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/game/ReturnBoardPacket$ClientMarkers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/game/ReturnBoardPacket$ClientWalls.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/game/ReturnBoardPacket$ClientWalls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/game/ReturnBoardPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/game/ReturnBoardPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/lobby/ReturnNewGamePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/lobby/ReturnNewGamePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/lobby/ReturnPlayersPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/lobby/ReturnPlayersPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/lobby/ReturnSettingsPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/lobby/ReturnSettingsPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/lobby/ReturnStatePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toClient/lobby/ReturnStatePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/AddFriendPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/AddFriendPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/CheckFriendRequestsPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/CheckFriendRequestsPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/CheckFriendsPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/CheckFriendsPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/GetHistoryPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/GetHistoryPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/GetPlayerStatsPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/GetPlayerStatsPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/GetRankPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/GetRankPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/ServerPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/ServerPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/SessionGameCheckPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/SessionGameCheckPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/StartSessionPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/StartSessionPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/SuperMovePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/SuperMovePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/TestBoardPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/TestBoardPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/UnregisteredPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/UnregisteredPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/chat/GetChatPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/chat/GetChatPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/chat/SendMessagePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/chat/SendMessagePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/game/GetBoardPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/game/GetBoardPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/game/MovePlayerPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/game/MovePlayerPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/game/PlaceWallPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/game/PlaceWallPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/ChangeSettingsPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/ChangeSettingsPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/GetPlayersPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/GetPlayersPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/GetSettingsPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/GetSettingsPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/GetStatePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/GetStatePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/JoinLobbyPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/JoinLobbyPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/KickPlayerPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/KickPlayerPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/LeaveLobbyPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/LeaveLobbyPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/NewGamePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/NewGamePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/StartGamePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/toServer/lobby/StartGamePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/websockets/NewTurnPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/websockets/NewTurnPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/websockets/PlayerMovedPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/websockets/PlayerMovedPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/websockets/UpdateChatPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/websockets/UpdateChatPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/websockets/WallPlacedPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/websockets/WallPlacedPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/websockets/WebsocketPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/dataPackets/websockets/WebsocketPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/GameChat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/GameChat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/GameHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/GameHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/GameInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/GameInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/GameInteractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/GameInteractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/GameRules.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/GameRules.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/BoardHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/BoardHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/Tile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/Tile$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/Tile$Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/Tile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/Tile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/Building.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/DoubleWall.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/DoubleWall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/Goal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/Goal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/PlayerMarker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/PlayerMarker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/SingleWall.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/SingleWall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/TileBound.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/game/board/tileBound/TileBound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/AddFriendPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/AddFriendPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/ByteBoardPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/ByteBoardPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/GamePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/GamePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/GameSettingsPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/GameSettingsPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/IPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/IPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/ResultPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/ResultPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/SessionCheckPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/SessionCheckPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/SessionConfirmationPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/SessionConfirmationPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/StartSessionPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/StartSessionPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/TestMovePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/TestMovePacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/TestMovementPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/TestMovementPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/TestWallPacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/packets/TestWallPacket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/BotPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/BotPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/History.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/PlayerList$PlayerListData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/PlayerList$PlayerListData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/PlayerList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/PlayerList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/PlayerSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/PlayerSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/PlayerSessions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/PlayerSessions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/PlayerStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/player/PlayerStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/repository/HistoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/repository/HistoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/repository/PlayerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/repository/PlayerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/repository/PlayerStatsRepository$PlayerStatsWinRateComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/repository/PlayerStatsRepository$PlayerStatsWinRateComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/repository/PlayerStatsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/repository/PlayerStatsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/repository/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/repository/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/repository/SessionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/repository/SessionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/swagger/SpringFoxConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/classes/com/cs309/quoridorApp/swagger/SpringFoxConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/test-classes/com/cs309/quoridorApp/PacketTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/ManyBoot/target/test-classes/com/cs309/quoridorApp/PacketTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/ManyBoot/target/test-classes/com/cs309/quoridorAppTest/controllersTest/PacketTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\eller\.android\avd\Pixel_2_XL_API_33.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ln5WoniHmvzdLyUnlgB0z0pHh4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eller/School/ComS309/2_tz_4/Frontend&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Quoridor.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06b17df6-13f8-4884-8905-835d38ad3f53" name="Changes" comment="" />
+      <created>1676494040906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676494040906</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
