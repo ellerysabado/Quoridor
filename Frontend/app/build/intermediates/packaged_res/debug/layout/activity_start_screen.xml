@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.StartScreen">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="5pt"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/quoridorLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:text="Quoridor"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textSize="36pt"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5pt"
+        android:layout_marginTop="10pt"
+        android:layout_marginRight="5pt"
+        android:gravity="center|center_horizontal"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/startGameButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="10pt"
+          android:layout_weight="0"
+          android:contentDescription="Start"
+          android:gravity="left"
+          android:textAllCaps="false"
+          android:textSize="24sp"
+          app:icon="@drawable/play_icon"
+          app:iconGravity="textStart"
+          app:iconSize="40pt" />
+
+      <Button
+          android:id="@+id/accountButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="10pt"
+          android:layout_weight="0"
+          android:contentDescription="Account"
+          android:gravity="right"
+          android:textAllCaps="false"
+          android:textSize="24sp"
+          app:icon="@drawable/user_icon"
+          app:iconGravity="textStart"
+          app:iconPadding="0dp"
+          app:iconSize="40pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5pt"
+        android:layout_marginRight="5pt"
+        android:layout_marginBottom="2.5pt"
+        android:gravity="center|center_horizontal"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/leaderboardButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="10pt"
+          android:layout_weight="0"
+          android:contentDescription="Leaderboard"
+          android:gravity="left"
+          android:textAllCaps="false"
+          android:textSize="24sp"
+          app:icon="@drawable/leaderboard_icon"
+          app:iconGravity="textStart"
+          app:iconSize="40pt" />
+
+      <Button
+          android:id="@+id/settingsButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="10pt"
+          android:layout_weight="0"
+          android:contentDescription="Settings"
+          android:gravity="right"
+          android:textAllCaps="false"
+          android:textSize="24sp"
+          app:icon="@drawable/settings_icon"
+          app:iconGravity="textStart"
+          app:iconPadding="0dp"
+          app:iconSize="40pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5pt"
+        android:layout_marginTop="2.5pt"
+        android:layout_marginRight="5pt"
+        android:layout_marginBottom="2.5pt"
+        android:gravity="center|center_horizontal"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/exitButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="5pt"
+          android:layout_weight="0"
+          android:contentDescription="Exit"
+          android:textSize="24sp"
+          app:icon="@drawable/exit_icon_2"
+          app:iconGravity="textStart"
+          app:iconSize="40pt" />
+    </LinearLayout>
+
+  </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

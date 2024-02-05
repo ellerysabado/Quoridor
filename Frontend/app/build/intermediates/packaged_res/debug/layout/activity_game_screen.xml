@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/player0Tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/player_tag_selected"
+            android:backgroundTint="@color/Light_Blue"
+            android:text="Player 1"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/player1Tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/player_tag_selected"
+            android:backgroundTint="@color/Light_Blue"
+            android:text=" Player 2"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/player2Tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/player_tag_selected"
+            android:backgroundTint="@color/Light_Blue"
+            android:text="Player 3"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/player3Tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/player_tag_selected"
+            android:backgroundTint="@color/Light_Blue"
+            android:text="Player 4"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <com.example.quoridor.ui.game.QuoridorBoard
+        android:id="@+id/gameBoard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        app:altTilesColor="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:tilesColor="@color/Pale_Gray"
+        app:wallsColor="@color/Rosewater" />
+
+    <LinearLayout
+        android:id="@+id/winnerCard2"
+        android:layout_width="325dp"
+        android:layout_height="325dp"
+        android:background="@drawable/winner_card"
+        android:orientation="vertical"
+        android:outlineAmbientShadowColor="#000000"
+        android:outlineSpotShadowColor="#000000"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/gameBoard"
+        app:layout_constraintEnd_toEndOf="@+id/gameBoard"
+        app:layout_constraintStart_toStartOf="@+id/gameBoard"
+        app:layout_constraintTop_toTopOf="@+id/gameBoard">
+
+        <TextView
+            android:id="@+id/winnerText2"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:gravity="center"
+            android:text="Player 1 Won"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+        <Button
+            android:id="@+id/returnButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Return To Menu" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

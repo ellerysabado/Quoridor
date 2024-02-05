@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Quoridor" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">#8AB8D3</item>
+        <item name="colorPrimaryVariant">#B7C0C7</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        
+        <item name="colorSecondary">#E8B9B9</item>
+        <item name="colorSecondaryVariant">#B4D4E7</item>
+        <item name="colorOnSecondary">#000000</item>
+        
+        <item name="android:statusBarColor">#242424</item>
+        
+
+        <item name="android:windowBackground">#292929</item>
+    </style>
+</resources>

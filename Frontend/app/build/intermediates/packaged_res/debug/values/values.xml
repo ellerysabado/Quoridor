@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Dark_Peach">#d5b996</color>
+    <color name="Dumb_Gray">#F2F2F2</color>
+    <color name="Light_Blue">#8AB8D3</color>
+    <color name="Light_Blue_Green">#B4D4E7</color>
+    <color name="Light_Gray">#B7C0C7</color>
+    <color name="Pale_Gray">#D0D6E0</color>
+    <color name="Peach">#fbe5c8</color>
+    <color name="Rosewater">#FFA5AD</color>
+    <color name="Saturated_Peach">#ffb367</color>
+    <color name="Sky_Blue">#c8e7fb</color>
+    <color name="Soft_Pink">#E8B9B9</color>
+    <color name="Spearmint">#b6e5d8</color>
+    <color name="Turquoise">#8fdde7</color>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="wall_lenght">16dp</dimen>
+    <item name="constraintlayout" type="id"/>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="app_name">Quoridor</string>
+    <string name="create_lobby">"Create Lobby"</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="join_lobby">"Join Lobby"</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="next">Next</string>
+    <string name="or">"OR"</string>
+    <string name="previous">Previous</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_game_screen">gameScreen</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="welcome">"Welcome !"</string>
+    <style name="Theme.Quoridor" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">#8AB8D3</item>
+        <item name="colorPrimaryVariant">#B7C0C7</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        
+        <item name="colorSecondary">#E8B9B9</item>
+        <item name="colorSecondaryVariant">#B4D4E7</item>
+        <item name="colorOnSecondary">#000000</item>
+        
+        <item name="android:statusBarColor">#8AB8D3</item>
+        
+
+        <item name="android:windowBackground">#F2F2F2</item>
+    </style>
+    <style name="Theme.Quoridor.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Quoridor.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <declare-styleable name="QuoridorBoard">
+        <attr format="color" name="tilesColor"/>
+        <attr format="color" name="altTilesColor"/>
+        <attr format="color" name="wallsColor"/>
+        <attr format="color" name="wallsSelectedColor"/>
+        <attr format="color" name="player1Color"/>
+        <attr format="color" name="player2Color"/>
+        <attr format="color" name="player3Color"/>
+        <attr format="color" name="player4Color"/>
+    </declare-styleable>
+</resources>
