@@ -1,0 +1,10 @@
+com.example.quoridor
+com.example.quoridor.data
+com.example.quoridor.data.game.game
+com.example.quoridor.data.game.lobby
+com.example.quoridor.ui
+com.example.quoridor.ui.game
+com.example.quoridor.ui.gameHistory
+com.example.quoridor.ui.Lobby
+com.example.quoridor.utils
+com.example.quoridor.utils.net
