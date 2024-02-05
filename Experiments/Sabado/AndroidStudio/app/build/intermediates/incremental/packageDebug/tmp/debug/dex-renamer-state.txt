@@ -1,0 +1,10 @@
+#Fri Feb 03 12:57:28 CST 2023
+base.2=C\:\\Users\\eller\\School\\ComS309\\2_tz_4\\Experiments\\Sabado\\AndroidStudio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+path.2=5/classes.dex
+base.1=C\:\\Users\\eller\\School\\ComS309\\2_tz_4\\Experiments\\Sabado\\AndroidStudio\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+path.1=0/classes.dex
+base.0=C\:\\Users\\eller\\School\\ComS309\\2_tz_4\\Experiments\\Sabado\\AndroidStudio\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
