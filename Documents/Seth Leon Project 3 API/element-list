@@ -1,0 +1,11 @@
+com.cs309.quoridorApp
+com.cs309.quoridorApp.controllers
+com.cs309.quoridorApp.dataPackets
+com.cs309.quoridorApp.dataPackets.toClient
+com.cs309.quoridorApp.dataPackets.toClient.chat
+com.cs309.quoridorApp.dataPackets.toClient.game
+com.cs309.quoridorApp.dataPackets.toClient.lobby
+com.cs309.quoridorApp.dataPackets.toServer
+com.cs309.quoridorApp.dataPackets.toServer.chat
+com.cs309.quoridorApp.dataPackets.toServer.game
+com.cs309.quoridorApp.dataPackets.toServer.lobby
