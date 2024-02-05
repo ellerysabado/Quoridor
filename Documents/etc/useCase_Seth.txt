@@ -1,0 +1,53 @@
+USE CASE - User wants to add friends
+
+Primary Actor - User (user 1)
+
+Overview - A logged in user, user 1, wants to add another user with an existing
+account as a friend, user 2. User 1 goes to their friend page and goes to the
+"friend request" tab. User 1 inputs user 2's username in an area, presses
+a button that sends a friend request to the inputted user, and waits for
+a response.
+
+Alternative Flow 1 - If user 1 has a friend request from user 2, user
+1 will be able to see the friend request from user 2, click on it, and
+accept the friend request, making user 1 and user 2 friends.
+
+Actors - User (user 1), User (user 2)
+
+Trigger - User 1 wants to add user 2 as a friend.
+
+Precondition 1 - User 1 is logged in.
+
+Precondition 2 - User 2 has an account.
+
+Basic Flow - Shows case where user 1 does not have a friend request from 
+user 2
+
+1) User 1 goes to their friend page.
+
+2) User 1 goes to the "Friend Requests" tab in their friend page.
+
+3) User 1 inputs user 2's username into a widgit that accepts text input.
+
+4) User 1 presses "send friend request" button, sending the inputted user a
+friend request.
+
+5) User 1 waits for user 2 to accept the friend request.
+
+Termination Outcome - User 1 and user 2 are friends.
+
+
+
+Alternative Flow 3A - User 1 has a friend request from user 2.
+
+4A1) User 1 sees widgit that shows that they have a friend request from
+user 2.
+
+4A2) User 1 clicks on previously mentioned widgit, giving them an option to
+accept user 2's friend request.
+
+4A3) User 1 clicks on the button that accepts user 2's friend request.
+
+Termination Outcome - User 1 and user 2 are friends.
+
+Post Conditions - User 1 and user 2 are friends.

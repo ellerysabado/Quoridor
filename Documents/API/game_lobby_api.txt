@@ -1,0 +1,250 @@
+Game Lobby API:
+
+Description: This is an API for performing game related actions including:
+	- creating lobby
+	- getting lobby ID
+	- getting players in lobby
+	- joining lobby
+	- starting game
+	- changing game to 2 or 4 player modes
+
+Notes: 
+	- session is a random string 6 with a length of 6
+	- if the host leaves the server the host is assigned to a random player
+	- only the host can change specific properties of the game, these are labelled with (Host Only)
+	- message should return an empty string "" if it worked properly
+	- GETPLAYERS only returns players that are currently in the session
+
+
+--------------------------Creating Lobby on Server---------------------------
+
+A JSON object is sent to: {server_url}/lobby
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		function: "CREATELOBBY"
+		data: {}
+	}
+
+Success Response:
+	{
+		message: "",
+		session: "abc123"
+	}
+
+Failure Response:
+	{
+		message: "unable to create lobby... etc."
+	}
+
+
+--------------------------Joining Lobby on Server---------------------------
+
+A JSON object is sent to: {server_url}/lobby
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		session: "abc123",
+		function: "JOINLOBBY",
+		data: {}
+	}
+
+Success Response:
+	{
+		message: ""
+	}
+
+Failure Response:
+	{
+		message: "unable to join lobby... etc."
+	}
+
+
+--------------------------Get Player List from Server---------------------------
+
+A JSON object is sent to: {server_url}/lobby
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		session: "abc123",
+		function: "GETPLAYERS",
+		data: {}
+	}
+
+Success Response:
+	{	
+		players: [
+				{
+					name: "Player 1",
+					role: "host"
+				},
+				{
+					name: "Player 2",
+					role: "client"
+				},
+				{
+					name: "Player 3",
+					role: "client"
+				},
+				{
+
+					name: "Player 4",
+					role: "client"
+				}
+			]
+	}
+
+Failure Response:
+	{
+		message: "unable to get information... authentication error etc."
+	}
+
+
+--------------------------Get Lobby State from Server---------------------------
+
+A JSON object is sent to: {server_url}/lobby
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		session: "abc123",
+		function: "GETLOBBYSTATE",
+		data: {}
+	}
+
+Success Response:
+	{
+		//returns an int
+		//0 = Game has started
+		//1 = Currently waiting in lobby
+		//2 = Lobby has ended (Host has closed the lobby)
+		lobby_state: {0 or 1 or 2}
+	}
+
+Failure Response:
+	{
+		message: "unable to get information... authentication error etc."
+	}
+
+
+--------------------------Leave Lobby from Server---------------------------
+
+A JSON object is sent to: {server_url}/lobby
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		session: "abc123",
+		function: "LEAVELOBBY",
+		data: {}
+	}
+
+Success Response:
+	{
+		message: ""
+	}
+
+Failure Response:
+	{
+		message: "unable to leave... auth error etc."
+	}
+
+
+--------------------------(Host Only) Kick Player from Server---------------------------
+
+A JSON object is sent to: {server_url}/lobby
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		session: "abc123",
+		function: "KICKPLAYER" //could kick any player 1-4 (as long as they're not the host)
+		data: { player: {int 0 or 1 or 2 or 3} }
+	}
+
+Success Response:
+	{
+		message: "",
+	}
+
+Failure Response:
+	{
+		message: "unable to kick player... host etc."
+	}
+
+
+--------------------------(Host Only) Start Game on Server---------------------------
+
+A JSON object is sent to: {server_url}/lobby
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		session: "abc123",
+		function: "STARTGAME",
+		data: {}
+	}
+
+Success Response:
+	{
+		message: ""
+	}
+
+Failure Response:
+	{
+		message: "unable to start game... not enough players etc."
+	}
+
+--------------------------(Host Only) Change Game Settings---------------------------
+
+A JSON object is sent to: {server_url}/lobby
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		session: "abc123",
+		function: "CHANGESETTINGS"
+		data: {
+			player_count: {int 2 or 4}
+			host: {int 0 or 1 or 2 or 3}
+			//could possibly add other settings like a time limit or number of walls later on
+		}
+	}
+
+Success Response:
+	{
+		message: ""
+	}
+
+Failure Response:
+	{
+		message: "unable to change, too many people... etc."
+	}
+
+
+--------------------------Get Game Settings---------------------------
+
+A JSON object is sent to: {server_url}/lobby
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		session: "abc123",
+		function: "GETSETTINGS"
+		data: {}
+	}
+
+Success Response:
+	{
+		player_count: {int 2 or 4}
+		host: {int 0 or 1 or 2 or 3}
+		//could possibly add other settings like a time limit or number of walls later on	
+	}
+
+Failure Response:
+	{
+		message: "unable to change, too many people... etc."
+	}

@@ -1,0 +1,74 @@
+Game Chat API:
+
+Description: This is an API for chatting which includes:
+	- sending messages
+	- getting the chat
+
+Notes: 
+	- session is a random string 6 with a length of 6
+	- message should return an empty string "" if it worked properly
+
+
+--------------------------Sending Messages---------------------------
+
+A JSON object is sent to: {server_url}/chat
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		session: "abc123",
+		function: "SENDCHAT,
+		data: 
+			{
+
+				chatMessage: <message>	
+
+			}
+	}
+
+Success Response:
+	{
+		message: ""
+	}
+
+Failure Response:
+	{
+		message: "unable to send chat... etc."
+	}
+
+--------------------------Get Chat---------------------------
+
+A JSON object is sent to: {server_url}/chat
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		session: "abc123",
+		function: "GETCHAT,
+		data: {}
+	}
+
+Success Response:
+	{
+		message: "",
+		chatMessages:[
+       			 <earliest "<username>: <message>" string>,
+			 <second earliest "<username>: <message>" string>,
+			 ...
+			 <most recent "<username>: <message>" string>
+   			 	]
+	}
+
+Failure Response:
+	{
+		message: "unable to send chat... etc."
+	}
+--------------------------Update Chat [Server to Client; WebSocket]---------------------------
+
+NOTE: The endpoint of the websocket is /game/{session uuid} and the chat shares its websocket with the main game
+
+Server Send:
+	{
+		function: "UPDATECHAT",
+		chatMessage: <new "<username>: <message>" string>
+	}

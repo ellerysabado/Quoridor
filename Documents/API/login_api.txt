@@ -1,0 +1,32 @@
+
+send json HTTP post to "{url}/login"
+
+Client JSON for Login:
+{
+    "login" : true,
+    "username" : "user1",
+    "password" : "1234"
+}
+
+Client JSON for Creating an account:
+{
+    "login" : "false",
+    "username" : "user1",
+    "password" : "1234",
+    "name" : "xXdope_usernameXx"
+}
+
+-username and password are self explanatory
+-if login is sent as "false" then the request is creating an account
+-if login is sent as "true" then the request is being used to login to a pre-existing account
+
+
+Client Receive JSON Format:
+{
+    "error" : "",
+    "uuid" : "1234-4567-7891-0111"
+}
+
+
+-uuid is returned to the client and is used to login to the server without password
+-if everything is ok then the error-message is empty

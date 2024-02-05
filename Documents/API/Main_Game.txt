@@ -1,0 +1,186 @@
+Main Game API:
+
+Description: This is an API for performing game related actions including:
+	- GETBOARD
+	- GETPLAYERS
+	- PLACEWALL
+	- MOVEPLAYER
+	- GETSETTINGS
+
+
+Notes:
+	- message should return an empty string "" if it worked properly
+
+
+----------------------------Main API Spec---------------------------
+
+A JSON object is sent to: {server_url}/game
+
+Client Send:
+{	
+	uuid: {user uuid string},
+	session: {game session number},
+	function: String {function name},
+	data: {JSON_Object}
+}
+
+Default Response:
+{
+	message: "error: invalid uuid or invalid session id"
+}
+
+
+----------------------------JSON_OBJECT Types---------------------------
+
+GETBOARD:
+	Body:
+		{  }
+	Response:
+		{
+			message: "",
+
+			winner: <Winner's username or "" if no winner>
+
+			currentPlayer: int 1-4,
+
+			//array containing 2 or 4 player objects of players in current game
+			pieces: [
+				{
+					x: //int 0-9
+					y: //int 0-9
+					wallsRemaining: //int
+				},
+				{
+					x: //int 0-9
+					y: //int 0-9
+					wallsRemaining: //int
+				},
+				{
+					x: //int 0-9
+					y: //int 0-9
+					wallsRemaining: //int
+				},
+				{
+					x: //int 0-9
+					y: //int 0-9
+					wallsRemaining: //int
+				}
+			]
+
+			//2d array of each of the walls on the board
+			walls:[
+				{
+					x: int 0-9,
+					y: int 0-9,
+					direction: 0 or 1 //horizontal = 0	vertical = 1
+				},
+				{
+					x: int 0-9
+					y: int 0-9
+					direction: 0 or 1 //horizontal = 0	vertical = 1
+				},
+				.
+				.
+				.
+			]
+	}
+
+GETPLAYERS:
+	Body:
+		{  }
+	Response:
+		{
+			message: "",
+		
+			//array containing 2 - 4 player objects of players in current game
+			players: [
+				{
+					name: //string
+					role: //string "host" or "client"
+					teamNumber: //int 0 - 4
+				},
+				.
+				.
+				.
+			]
+		}
+
+PLACEWALL:
+	Body:
+		{  
+			x: int 0-9
+			y: int 0-9
+			direction: //horizontal = 0	vertical = 1
+		}
+	Response:
+		{
+			message: ""
+		}
+
+MOVEPLAYER:
+	Body:
+		{  
+			x1: int 0-9
+			y1: int 0-9
+			x2: int 0-9
+			y2: int 0-9
+		}
+	Response:
+		{
+			message: ""
+		}
+
+GETSETTINGS:
+	Body:
+		{  }
+	Response:
+		{
+			message: "",
+			player_count: {int 2 or 4},
+			host: {int 0 or 1 or 2 or 3},
+			numWalls: {int 1 - 10},
+			botCount: {int 0 - 2}
+			//could possibly add other settings like a time limit or number of walls later on	
+		}
+----------------------------Server Websocket Packets---------------------------
+
+NOTE: The endpoint of the websocket is /game/{session uuid} and the main game shares its websocket with the chat
+
+Player Moved: //sends placement of given player
+	{
+		function: "PLAYERMOVED",
+		player:
+			{
+				name: //string
+				role: //string "host" or "client"
+				teamNumber: //int 0 - 4
+			},
+		x: <player's new x pos>,
+		y: <player's new y pos>
+	}
+
+Wall Placed: //sends the placement of a new wall and who placed it; pos is the top left tile that the wall is in
+	{
+		function: "WALLPLACED",
+		player:
+			{
+				name: //string
+				role: //string "host" or "client"
+				teamNumber: //int 0 - 4
+			},
+		x: <wall's new x pos>,
+		y: <wall's new y pos>,
+		direction: <horizontal = 0	vertical = 1>
+	}
+
+New Turn: //sent when its a new player's turn; sends whos turn it is
+	{
+		function: "NEWTURN",
+		player:
+			{
+				name: //string
+				role: //string "host" or "client"
+				teamNumber: //int 0 - 4
+			}
+	}
+

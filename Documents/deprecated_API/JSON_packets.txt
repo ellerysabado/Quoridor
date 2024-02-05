@@ -1,0 +1,88 @@
+(when i say packet, i mean an object with these variables)
+FORMAT - How the packets will be formatted
+
+PacketName - Packet description
+{
+"<variable>":"<value>" {<variable class (if not already obvious)> (do not include in json; for readability only)}
+}
+
+
+
+TO SERVER - These packets will be sent to the server
+
+AddFriendPacket: used to either send a friend request or accept a friend request requires user to be in a session
+and for friend to exist
+
+{
+"id":<session id>, {long}
+"friend":"<friend's username>" {String}
+}
+
+StartSessionPacket: Used to either start login or signup, creating a session in both cases. 
+If login in false, it will create a new account, otherwise, it will search for a pre existing account.
+
+{
+"login":<boolean>,
+"username":"<username>", {string}
+"password":"<password>" {string}
+}
+
+SessionCheckerPacket: used for actions that require the client to be logged on but no extra data
+(like making a game or looking at lobbies)
+
+{
+"id":<session id> {long}
+}
+
+GamePacket: used for actions that require the client to be logged on and the server they want to interact with
+(like starting or joining a game)
+
+{
+"id":<session id>, {long}
+"gameId":<game id> {int}
+}
+
+GameSettingsPacket: used to change the given game's settings
+
+{
+"id":<session id>, {int}
+"gameId":<game id>, {int}
+"bots":<number of bots in game> {int}
+}
+
+TestMovementPacket: used to move a player's marker anywhere on the board that is available
+
+{
+"id":<session id>, {int}
+"gameId":<game id>, {int}
+"x":<x position>, {int}
+"y":<y position> {int}
+}
+
+
+
+TO CLIENT - Packets sent to client
+
+GamePacket: already discussed, but will also be sent to client some times
+
+ResultPacket: returns whether the action was a success and, if not, what went wrong
+(reason may not be empty if result is true because of laziness)
+
+{
+"result":<boolean>,
+"reason":<failure reason> {string}
+}
+
+SessionConfirmationPacket: Given when a session is requested. If the request is denied,
+"uuid" will be all 0s and "error" will explain why, otherwise, "uuid" will be a random uuid connected to the user's account
+and "error" will be an empty string
+
+{
+"id":<session id>, {int}
+"error":"<error reason>" {string}
+}
+
+ByteBoardPacket: used to return the board in a way thats easily parsable
+{
+"bytee":<board in 2D array> {int[][]}
+}

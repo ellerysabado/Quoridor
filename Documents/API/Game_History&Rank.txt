@@ -1,0 +1,107 @@
+Game History & Leaderboard API:
+
+Description: This is an API for performing game related actions including:
+	- get wins
+	- get losses
+	- get win percentage
+	- get rank
+	- get moves
+	- get previous games
+
+--------------------------Leaderboard---------------------------
+
+A JSON object is sent to: {server_url}/stats
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		function: "GETWINSLOSSES,
+		data: 
+			{
+			}
+	}
+
+Success Response:
+	{
+		message: ""
+        "username":<username>,
+        "wins":<int>,
+        "losses":<losses>
+	}
+
+Failure Response:
+	{
+		message: "unable to get wins or losses... etc."
+	}
+
+
+--------------------------Rank---------------------------
+
+
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		function: "GETRANK,
+		data: {}
+	}
+
+Success Response:
+	{
+		message: "",
+        "players":
+        [
+            {"rank": <int>, "username": <username>, "winPercent" : <int>}
+            {"rank": <int>, "username": <username>, "winPercent" : <int>}
+            {"rank": <int>, "username": <username>, "winPercent" : <int>}
+            {"rank": <int>, "username": <username>, "winPercent" : <int>}
+            {"rank": <int>, "username": <username>, "winPercent" : <int>}
+            {"rank": <int> "username": <username>, "winPercent" : <int>}
+            {"rank": <int>, "username": <username>, "winPercent" : <int>}
+            {"rank": <int>, "username": <username>, "winPercent" : <int>}
+            {"rank": <int>, "username": <username>, "winPercent" : <int>}
+            {"rank": <int>, "username": <username>, "winPercent" : <int>}
+        ]
+		
+	}
+
+Failure Response:
+	{
+		message: "unable to get top 10 ranks... etc."
+	}
+--------------------------Game History---------------------------
+
+
+
+Client Send:
+	{	
+		uuid: {user uuid string},
+		function: "GETHISTORY,
+		data: {}
+	}
+
+Success Response:
+	{
+    "message":"", 
+    "winPercent":<int>,
+    "username":<username>,
+    "previousGames": 
+          [
+                {
+                    "winner":<winner's username as string>,
+                    "players": <list of strings>,
+                    "moves": <list of strings>,
+                },
+                {
+                    "winner":<winner's username as string>,
+                    "players": <list of strings>,
+                    "moves": <list of strings>,
+                },
+                ...
+} 
+
+
+Failure Response:
+	{
+		message: "unable to get history... etc."
+	}

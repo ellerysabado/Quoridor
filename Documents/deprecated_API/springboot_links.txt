@@ -1,0 +1,79 @@
+(for packet information, see JSON_packets)
+FORMAT
+
+{CRUDL}-/{link}/{link1}/.... [data sent to server/ data returned to client] - description
+
+LINKS
+
+POST - /login [StartSessionPacket / SessionConfirmationPacket] - used to signup or login (maybe think of a better link)
+
+DELETE - /logout [SessionCheckPacket / ResultPacket] - used to signout; deletes the sent session
+
+POST* - /getSession [SessionCheckPacket / Player] - used to see the player that is in the sent session
+
+POST* - /allSessions [ / List<PlayerSession>] - used to see all the sessions currently active
+
+DELETE - /allSessions [ / ] - used to delete all sessions
+
+POST* - /allPlayers [ / List<Player>] - returns list of all players
+
+DELETE - /allPlayers [ / ] - deletes all players
+
+DELETE - /player/{username} [ {username} / ResultPacket] - deletes player with given username and returns
+failure or success
+
+POST - /player/post/{username}/{password}/{name} [ / Player] - creates and returns a player without creating a session
+
+POST - /player/post [Player / Player] - saves given player to database and returns given player
+
+POST* - /openGames [SessionCheckPacket / List<Long>] returns a list of the current active games' ids
+
+POST* - /friends [SessionCheckPacket / List<Player>] returns a list of all the player's friends
+
+POST* - /friends/requests [SessionCheckPacket / List<Player>] returns a list of everyone who has sent a friend request to the
+player that hasnt been responded to yet
+
+POST - /friends/add [AddFriendPacket / ResultPacket] Adds adds player with given username to users' friends list and
+vis versa if the user has recieved a friend request from the player, otherwise sends friend request to given player
+
+POST - /newGame [SessionCheckPacket / int] - used to make a new game, returns the game's id
+
+PUT - /editGame [GameSettingsPacket / ResultPacket] - used to change rules of the game, returns whether or not successful
+
+POST - /joinGame [GamePacket / ResultPacket] - used to join a game, fails if player session doesnt exist, no game exists, or
+player already in game
+
+POST* /getHost [GamePacket / Player] - returns host of given game
+
+POST - /startGame [GamePacket / ResultPacket] - used to start a game, fails if player session doesnt exist, no game exists, or
+player not the host
+
+PUT - /playTest [TestMovementPacket / ResultPacket] - used to move given player to given position, fails if player session doesnt exist,
+no game exists, the game hasnt started yet, or the player cannot move to given position.
+
+POST* - /seeBoardTest [GamePacket / String] - used to view the board, fails if player session doesnt exist, no game exists, or
+the game hasnt started yet
+
+POST* - /byteBoardTest [GamePacket / byte[][]] - used to get the state of the board in a way that can be easily ready by computers.
+The bits represent the presense of a building in the 4 directions of a tile (starting with up and going clockwise,
+from rightmost to leftmost bit) and the state of the entities in the tile (the first 3 bits being the team and the final bit being
+extra information, like there being more than one entity in the space or a non player entity; all 4 bits being 0 means nothing
+in the tile)
+ex
+0001 0000 - player in team 1 at a tile with no buildings
+
+0000 1100 - a tile with a building to the left and up
+
+1001 0000 - a tile with no buildings, a player in team one, and another entity (either another player or a different type of
+entity, like a bird)
+
+//prob shouldnt be seen
+
+POST* - /allPlayerStats [ / List<PlayerStats>] - returns list of all playerStats
+
+POST* - /playerStats/{username} [{username} / ResultPacket] - returns given user's playerStats
+
+POST - /playerStats [PlayerStats / ResultPacket] - saves given playerStats to database
+
+PUT - /playerStats/{username} [{username}, PlayerStats / PlayerStats] - saves given PlayerStats to database
+and returns given PlayerStats 
