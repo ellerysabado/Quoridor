@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".swamp">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#5F7A40"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/shrekImage"
+        android:layout_width="302dp"
+        android:layout_height="353dp"
+        android:layout_marginTop="196dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/better_shrek" />
+
+    <Button
+        android:id="@+id/partyButton"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Activate Party Mode!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shrekImage" />
+
+    <Button
+        android:id="@+id/leaveSwamp"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:text="Leave Swamp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/partyButton" />
+
+    <ImageView
+        android:id="@+id/discoBall"
+        android:layout_width="229dp"
+        android:layout_height="195dp"
+        android:layout_marginBottom="8dp"
+        android:tintMode="src_atop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/shrekImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/disco_ball" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
