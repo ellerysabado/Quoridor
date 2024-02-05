@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QuoridorBoard">
+        <attr name="tilesColor" format="color"/>
+        <attr name="altTilesColor" format="color"/>
+        <attr name="wallsColor" format="color"/>
+        <attr name="wallsSelectedColor" format="color"/>
+        <attr name="player1Color" format="color"/>
+        <attr name="player2Color" format="color"/>
+        <attr name="player3Color" format="color"/>
+        <attr name="player4Color" format="color"/>
+    </declare-styleable>
+
+</resources>

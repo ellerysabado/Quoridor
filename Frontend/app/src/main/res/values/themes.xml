@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Quoridor" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#8AB8D3</item>
+        <item name="colorPrimaryVariant">#B7C0C7</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#E8B9B9</item>
+        <item name="colorSecondaryVariant">#B4D4E7</item>
+        <item name="colorOnSecondary">#000000</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#8AB8D3</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowBackground">#F2F2F2</item>
+    </style>
+    <style name="Theme.Quoridor.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Quoridor.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
